@@ -1,0 +1,6 @@
+---
+# tasks file for docker
+- name: Install Docker
+  ansible.builtin.yum:
+    name: docker
+    state: present
